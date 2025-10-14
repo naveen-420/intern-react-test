@@ -1,0 +1,31 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Amazon Athena Configuration Form",
+  "type": "object",
+  "properties": {
+    "region": {
+      "type": "string",
+      "title": "Region",
+      "enum": [
+        "us-east-1",
+        "us-west-2",
+        "eu-west-1",
+        "ap-south-1"
+      ],
+      "default": "us-east-1"
+    },
+    "pricingModel": {
+      "type": "string",
+      "title": "Pricing Model",
+      "enum": [
+        "On-Demand",
+        "Provisioned"
+      ],
+      "default": "On-Demand"
+    }
+  },
+  "required": [
+    "region",
+    "pricingModel"
+  ]
+}
