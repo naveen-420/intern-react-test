@@ -53,9 +53,9 @@ Open **http://localhost:3000** in your browser to test your form.
 ## ✅ Deliverables
 
 1. A working React JSON Schema Form showing all fields from AWS Athena Calculator.
-2. Validations and default values where applicable.
-3. Push everything to a **public GitHub repository** named `yourname-react-test`.
-4. Share the repo link
+2. Add random default values.
+3. Push everything to a **public GitHub repository** named `yourname-react-test` in your github account.
+4. Share the GitHub repository link, once completed.
 
 ---
 
@@ -71,4 +71,4 @@ Open **http://localhost:3000** in your browser to test your form.
 
 Good luck! 🚀
 
-Note: UI of the form doesn't considered for evaluation 
+Note: UI look and feel of the form doesn't considered for evaluation. So you can conencrate on functionality.
